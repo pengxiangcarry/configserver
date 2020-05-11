@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pengxiangcarry/configserver
+          username: 979382979@qq.com
+          password: px1996113
+server:
+  port: 8080
+encrypt:
+  key: s3cr3t
+greeting:
+  message: hello world!
