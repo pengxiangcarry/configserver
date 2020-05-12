@@ -1,4 +1,9 @@
 spring:
+  rabbitmq:
+    host: rabbit.tacocloud.com
+    port: 5672
+    username: tacocloud
+    password: s3cr3t
   cloud:
     config:
       server:
